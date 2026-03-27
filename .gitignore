@@ -1,0 +1,28 @@
+# Dependencies
+node_modules/
+
+# Runtime / build
+.nuxt/
+.output/
+dist/
+
+# Database (runtime data)
+backend/db.json
+backend/todo.db
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
